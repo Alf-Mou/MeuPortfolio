@@ -4,6 +4,7 @@
 :root {
     --font-color: #FFFFFF;
     --background-color: #1B1D1F;
+    --color-indie: #552B5B;
     --fonte-principal: "Inter", sans-serif;
 }
 
@@ -19,6 +20,7 @@ body {
     align-items: center;
     background-color: #1B1D1F;
 }
+
 
 .cabecalho {
     display: flex;
@@ -231,3 +233,131 @@ body {
     font-weight: 400;
 }
 
+.indie-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-indie);
+}
+
+.game__container-indie1 {
+    width: 100%;
+}
+
+.container-indie1__container {
+    display: flex;
+    gap: 11.25px;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.container-indie__frase {
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container-indie2__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.indie2__titulo {
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.indie2__container1 {
+    display: flex;
+    gap: 24px;
+}
+
+.indie2__container1__container {
+    width: 86px;
+}
+
+.indie2__container1__frase {
+    width: 86px;
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.indie2__container1__texto {
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.indie2__container2 {
+    display: flex;
+}
+
+.container2__div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.div1 {
+    display: flex;
+    gap: 24px;
+}
+
+.container__infos {
+    width: 86px;
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container__infos__resp {
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container__infos__tec {
+    display: flex;
+    gap: 8px;
+}
+
+.container__tec2 {
+    padding: 4px 8px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+.tec__texto2 {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-indie);
+}
+
+.container__infos__link {
+    font-family: var(--fonte-principal);
+    color: var(--font-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.indie2__container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 40px;
+}
