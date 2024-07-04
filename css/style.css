@@ -303,6 +303,7 @@ body {
 }
 
 .game__container-indie1 {
+    max-width: 1248px;
     width: 100%;
 }
 
@@ -312,6 +313,7 @@ body {
     align-items: center;
     width: 100%;
     text-decoration: none;
+    margin: 0 24px;
 }
 
 .container-indie__frase {
@@ -322,6 +324,7 @@ body {
 }
 
 .container-indie2__container {
+    margin: 0 24px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -383,6 +386,7 @@ body {
 }
 
 .container__infos__resp {
+    margin-right: 16px;
     font-family: var(--fonte-principal);
     color: var(--font-color);
     font-size: 20px;
@@ -390,8 +394,10 @@ body {
 }
 
 .container__infos__tec {
+    margin-right: 16px;
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .container__tec2 {
@@ -618,6 +624,49 @@ body {
         display: block;
     }
 
+    .container-indie1__container {
+        margin: 0 16px;
+    }
+    .container-indie2__container {
+        margin: 0 16px;
+    }
+
+    .indie2__titulo {
+        font-size: 20px;
+    }
+
+    .indie2__container2 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .container2__div {
+        width: 100%;
+    }
+
+    .indie2__container1__texto {
+        font-size: 14px;  
+    }
+
+    .container__infos__resp {
+        font-size: 14px;
+    }
+
+    .container__infos__link {
+        font-size: 14px;
+    }
+
+    .indie2__container3 {
+        gap: 16px;
+    }
+
+    .container3__img-container {
+        width: 100%;
+    }
+
+    .img-jogo {
+        width: 100%;
+    }
 
 
 
